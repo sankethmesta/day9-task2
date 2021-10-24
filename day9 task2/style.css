@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+img{
+    height: 500px;
+    border-radius: 1%;
+    width: 350px;
+    opacity: 0.8;
+    
+}
+
+
+.cointainer1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+.cointainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 1%;
+}
+.sec5{
+    width: 90%;
+}
+span{
+    text-decoration: dashed;
+}
+.text{
+    position: absolute;
+    bottom: 20%;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.text1{
+    position: absolute;
+    bottom: 15%;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 18px;   
+}
+.text2{
+    position: absolute;
+    bottom: 5%;
+    left: 35%;
+    color: white;
+    
+}
+.text3{
+    font-size: 10px;
+}
+.sec6{
+    padding-bottom: 20px;
+    padding-right: 60px;
+   
+    
+}
+.btn{
+    width: 200%;
+    height: 30px;
+    background-color: aqua;
+    
+    
+}
+.span{
+    text-decoration: dashed;
+}
+.btn1{
+    color: white;
+    font-size: 12px;
+}
+#fname, #lname, #email, #pass, #cpass{
+    height: 25px;
+    
+}
+.sec1, .sec2, .sec3, .sec4{
+    margin-right: 70px;
+}
